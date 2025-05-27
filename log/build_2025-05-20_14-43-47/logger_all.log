@@ -1,0 +1,105 @@
+[0.526s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.526s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x728517259960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x728517259390>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x728517259390>>, mixin_verb=('build',))
+[1.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.324s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/subhashini/dev_ws/src/bot_1705'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.386s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'bot_1705'
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/subhashini/dev_ws/install
+[1.559s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/subhashini/dev1_ws/src/retrobotics_1705/install
+[1.564s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[1.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_args' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_target' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_clean_cache' from command line to 'False'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_clean_first' from command line to 'False'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'cmake_force_configure' from command line to 'False'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'ament_cmake_args' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'catkin_cmake_args' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'bot_1705' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.741s] DEBUG:colcon.colcon_core.verb:Building package 'bot_1705' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705', 'merge_install': False, 'path': '/home/subhashini/dev_ws/src/bot_1705', 'symlink_install': False, 'test_result_base': None}
+[1.742s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.747s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/subhashini/dev_ws/src/bot_1705' with build type 'ament_cmake'
+[1.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/subhashini/dev_ws/src/bot_1705'
+[1.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subhashini/dev_ws/src/bot_1705 -DCMAKE_INSTALL_PREFIX=/home/subhashini/dev_ws/src/bot_1705/install/bot_1705
+[3.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subhashini/dev_ws/src/bot_1705 -DCMAKE_INSTALL_PREFIX=/home/subhashini/dev_ws/src/bot_1705/install/bot_1705
+[3.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subhashini/dev_ws/src/bot_1705/build/bot_1705 -- -j8 -l8
+[3.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subhashini/dev_ws/src/bot_1705/build/bot_1705 -- -j8 -l8
+[3.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subhashini/dev_ws/src/bot_1705/build/bot_1705
+[3.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_1705)
+[3.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhashini/dev_ws/src/bot_1705/build/bot_1705' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subhashini/dev_ws/src/bot_1705/build/bot_1705
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705' for CMake module files
+[3.437s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705' for CMake config files
+[3.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_1705', 'cmake_prefix_path')
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.ps1'
+[3.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.dsv'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.sh'
+[3.452s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/bin'
+[3.452s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/lib/pkgconfig/bot_1705.pc'
+[3.453s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/lib/python3.10/site-packages'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/bin'
+[3.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.ps1'
+[3.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.dsv'
+[3.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.sh'
+[3.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.bash'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.zsh'
+[3.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/colcon-core/packages/bot_1705)
+[3.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_1705)
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705' for CMake module files
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705' for CMake config files
+[3.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_1705', 'cmake_prefix_path')
+[3.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.ps1'
+[3.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.dsv'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/hook/cmake_prefix_path.sh'
+[3.495s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/bin'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/lib/pkgconfig/bot_1705.pc'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/lib/python3.10/site-packages'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/bin'
+[3.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.ps1'
+[3.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.sh'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.bash'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/bot_1705/package.zsh'
+[3.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhashini/dev_ws/src/bot_1705/install/bot_1705/share/colcon-core/packages/bot_1705)
+[3.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.518s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.547s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhashini/dev_ws/src/bot_1705/install/local_setup.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/subhashini/dev_ws/src/bot_1705/install/_local_setup_util_ps1.py'
+[3.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhashini/dev_ws/src/bot_1705/install/setup.ps1'
+[3.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhashini/dev_ws/src/bot_1705/install/local_setup.sh'
+[3.629s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/subhashini/dev_ws/src/bot_1705/install/_local_setup_util_sh.py'
+[3.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhashini/dev_ws/src/bot_1705/install/setup.sh'
+[3.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhashini/dev_ws/src/bot_1705/install/local_setup.bash'
+[3.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhashini/dev_ws/src/bot_1705/install/setup.bash'
+[3.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhashini/dev_ws/src/bot_1705/install/local_setup.zsh'
+[3.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhashini/dev_ws/src/bot_1705/install/setup.zsh'
